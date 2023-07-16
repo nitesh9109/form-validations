@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h1>Sign Up</h1>
+
+        <div class="form-field">
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Choose a username" />
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Enter your email" />
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter a strong password"
+          />
+          <i class="bi bi-eye-slash pwd" id="togglePassword"></i>
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Reenter your password"
+          />
+          <i class="bi bi-eye-slash confirmPwd" id="togglePassword"></i>
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <button>SIGN UP</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="node.js"></script>
+  </body>
+</html>

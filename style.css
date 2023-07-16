@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+    background-color: rgb(128, 128, 128, 0.1);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    width: 410px;
+    margin: 50px auto;
+    padding: 15px 20px;
+    background-color: white;
+    font-weight: 300;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px gray, -1px -1px 5px gray;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 1.2rem;
+    text-indent: 8px;
+    margin: 5px 0;
+}
+
+form h1 {
+    font-weight: 500;
+}
+
+input {
+    width: 90%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(128, 128, 128, 0.4);
+}
+
+.form-field button {
+    width: 95%;
+    padding: 8px 10px;
+    font-size: 20px;
+    margin: 20px 0px;
+    color: white;
+    background-color: rgb(135, 135, 238);
+    border: none;
+    border-radius: 5px;
+}
+
+.form-field button:hover {
+    background-color: rgb(99, 99, 220);
+    cursor: pointer;
+}
+
+.success input {
+    border: 2px solid rgb(36, 193, 36);
+}
+
+.error input {
+    border: 2px solid rgb(218, 30, 30);
+}
+
+small {
+    display: block;
+    margin: 10px;
+    color: rgb(218, 30, 30);
+    text-align: left;
+}
+
+#togglePassword {
+    margin-left: -40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type="password"] {
+    margin-left: -18px;
+}
